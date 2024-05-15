@@ -1,0 +1,11 @@
+{
+  "name": "script-teste-carga",
+  "type": "module",
+  "scripts": {
+    "dev":"artillery run config-test"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/carlos-venancio/script-teste-carga.git",
+  "license": "MIT"
+}
