@@ -1,0 +1,12 @@
+config:
+  target: ''
+  phases:
+    - duration: 10
+      arrivalRate: 10
+scenarios:
+  - flow: 
+      - loop:
+        -  get:
+            url: '/'
+
+        count: 10
